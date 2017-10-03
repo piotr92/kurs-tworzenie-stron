@@ -1,0 +1,260 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+/*Content*/
+body {
+    width: auto;
+    height: auto;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    background-color: #7386B1;
+    color: #081635;
+    padding: 0 0px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+@media screen and (min-width: 1024px) {
+    p {
+        font-size: 17px;
+    }
+}
+
+header {
+    
+}
+
+.logo {
+
+    background-color: #172953;
+    padding: 8px;
+}
+
+.logo img {
+    max-width: 40%;
+}
+
+.top {
+    color: #fff;
+    background-image: url(restaurant-top.jpg);
+    background-size: cover;
+    background-position: 0% 40%;
+    
+}
+
+.top h1 {
+    padding: 25px;
+    margin-bottom: 5px;
+    font-size: 45px;
+    letter-spacing: 3px;
+}
+
+.top p {
+    padding-bottom: 30px;
+    color: #c5cae9;
+}
+
+.top a {
+    border: 1.5px solid #fff;
+    padding: 18px;
+    display: inline-block;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.top a:hover {
+    background-color: silver;
+    color: #172953;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #172953;
+}
+
+nav li {
+    padding: 15px;
+}
+
+@media screen and (min-width: 1024px) {
+    nav li {
+        display: inline-block;
+    }
+}
+
+nav a {
+    color: #fff;
+}
+
+nav a:hover {
+    background-color: silver;
+    color: #172953;
+
+}
+
+.section-welcome {
+    
+}
+
+.section-header {
+    color: #081635;
+    font-size: 30px;
+    padding: 27px;
+    font-size: 23px;
+}
+
+@media screen and (min-width: 1024px) {
+    .section-header {
+        font-size: 28px;
+    }
+}
+
+
+.section-content {
+    background-color: #081635;
+    color: #fff;
+}
+
+.section-content-div {
+    padding: 15px 40px;
+}
+
+.section-content-div p {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.section-content-2 {
+
+}
+
+.section-content-2-div p {
+    background-color: #081635;
+    color: #fff;
+    padding: 5px;
+    padding: 15px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.section-newsletter {
+
+}
+
+.section-newsletter-content {
+padding: 10px;
+}
+
+.newsletter-h2 {
+    padding: 5px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.newsletter-h3 {
+    margin-bottom: 12px;
+}
+
+.section-newsletter-content button {
+    background-color: #081635;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid #081635;
+}
+
+.fontello {
+
+    padding: 10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #081635;
+    color: silver;
+    padding: 3px;
+}
+
+/*google-maps*/
+.google-maps 
+{
+    position: relative;
+    padding-bottom: 35%;
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
